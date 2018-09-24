@@ -39,7 +39,6 @@ object demo {
 
       if (m.find()) {
         li ::= ("@IP: " + m.group(1)) + "\n" + ("Date&Time: " + m.group(4)) + "\n" + ("GET: " + m.group(5)) + "\n" + ("Port1: " + m.group(6)) + "\n" + ("Port2: " + m.group(7)) + "\n" + ("localhost@ " + m.group(8)) + "\n" + ("browser: " + m.group(9)) + "\n" + "\n" + "\n"
-        //        val S = ("@IP: " + m.group(1)).toString+"/n" + ("Date&Time: " + m.group(4)).toString+"/n" + ("GET: " + m.group(5)).toString+"/n" + ("P1: " + m.group(6)).toString+"/n" + ("P2: " + m.group(7)).toString+"/n" + ("localhost@ " + m.group(8)).toString+"/n" + ("browser: " + m.group(9)).toString+"/n" + "\n"
       }
 
       else {
