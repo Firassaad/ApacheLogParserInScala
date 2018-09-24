@@ -47,7 +47,7 @@ object demo {
 
       i = i + 1
 
-     // println(li)//to display result on terminal using the command sbt-run
+      println(li)//to display result on terminal using the command sbt-run
     }
     /*---------------------------------------------------If You Want To Add The Parsed Log To A Text File-------------------------------------------------*/
     new PrintWriter("WhereIwriteTheParsedLog.txt") {
